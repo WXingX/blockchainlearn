@@ -1,0 +1,12 @@
+{
+  "name": "JCCRecord",
+  "description": "my 10 jinlin record.", 
+  "external_url": "https://openseacreatures.io/3", 
+  "image": "ipfs://bafybeidskxw52pz63jbz6k4yub4y47sfdj4b6bmnpumt6etr43wao3ncye",
+  "attributes": [
+    {
+      "trait_type": "jinlin",
+      "value": 10
+    }
+  ]
+}
