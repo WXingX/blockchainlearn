@@ -1,0 +1,26 @@
+[log]
+compress = false
+keep_days = 7
+level = "info"
+mode = "volume"
+path = "logs/relayer"
+service_name = "sync-event"
+
+[db]
+database = "chain_event_sync"
+user = ""
+password = ""
+port = 3306
+max_open_conns = 1500
+host = ""
+log_level = "info"
+max_conn_max_lifetime = 300
+max_idle_conns = 10
+
+[chain_cfg]
+name = "Sepolia"
+id = 11155111
+token_address = "0x3F43a021c1e43393AEf2289e4FB694ab6ca091CC"
+deployer_address = "0x0C47e18e36c18b328124dc3D5A1Bf2e65258EcE1"
+delay_block_num=6
+rpc_url = ""
